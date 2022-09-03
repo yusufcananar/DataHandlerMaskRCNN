@@ -1,5 +1,5 @@
 # DataHandlerMaskRCNN
-Image manipulations for MaskRCNN
+Image manipulations for MaskRCNN before training with a mask annotations.
 
 ## About
 maskRCNNDataHandler.py is a library created to manipulate images and masks to build a better Mask RCNN dataset structure.         
