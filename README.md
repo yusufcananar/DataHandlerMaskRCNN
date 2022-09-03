@@ -14,3 +14,10 @@ It is capable of;
 
 ### Data Handler Resulting File Structure
 ![Data Handler Resulting File Structure](resources/dataHandlerStructure(1).png)
+
+### How it works?   
+Running main.py results as in the figure above. However, before running;   
+1. Data folder must be exists,   
+2. imX.jpg and imX_mask.png files must be in the Data folder.   
+
+Everything else is generated according to imX.jpg and imX_mask.png files.  
