@@ -66,7 +66,7 @@ class maskRCNNDataHandler():
 
     def image_divider(self, imPath, targetPath, sub_im_name='im', imSize = (540, 960), xGridSize = 60, yGridSize = 60):
 
-        im = cv2.imread(imPath, 0)
+        im = cv2.imread(imPath)
         # Split the image into grids and save them
         counter = 0
         for j in range(0, imSize[0], yGridSize):
